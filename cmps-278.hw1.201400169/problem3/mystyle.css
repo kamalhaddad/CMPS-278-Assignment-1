@@ -1,0 +1,79 @@
+body{
+	background-image:url("zen.jpg");
+	background-repeat: no-repeat;
+	margin-left: 110px;
+	font-family:Georgia;
+	font-size:9pt;
+}
+
+.header{	
+	font-size: 12pt;
+	color:#7d775c;
+}
+
+#Title{
+	font-size:12pt;
+	text-align:center;
+	text-decoration: underline;
+	width: 50em;
+	margin-left: 1%;
+}
+
+#textblock{
+	margin: 1em 1em 1em 1em;
+	width: 10em;
+	font-style: italic;
+	float:left;
+}
+
+#selectblock{
+	position:absolute;
+	width:9em;
+	background-color:#ddddbb;
+	right:0%;
+	top:14%;
+	margin-left:1em;
+}
+
+
+#all{
+	width:50em;
+	position:relative;
+
+}
+
+#intro{
+	width:40em;
+}
+
+#main{
+	width:50em;
+}
+
+#totalwidth{
+	width:50em;
+}
+
+#modwidth{
+	width:40em;
+}
+
+.select{
+	text-align:center;
+	text-decoration:underline;
+	font-size: 11pt;
+	color:#7d775c;
+}
+
+li{
+	margin: 0em 0em 1em -3em;
+	list-style-type: none;
+	color:#7d775c;
+
+}
+
+.capital{
+	    text-transform: capitalize;
+}
+
+

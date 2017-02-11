@@ -1,0 +1,99 @@
+#Header{
+	position:relative;
+	height: 128px;
+}
+
+#ImageHeader{
+	float:left;
+
+}
+
+#TextHeader{
+	float:right;
+	text-align:left;
+}
+
+#title-content{
+	position:absolute;
+	left:44%;
+	bottom:-40%;
+	text-align:center;
+}
+
+#PicsTable{
+	float:left;
+	top: 35%;
+	width: 34%;
+}
+
+#page-content{
+	margin-top: 3%;
+	position:relative;
+	width: 100%;
+	height: 550px;
+}
+
+#intro{
+	float:left;
+	width: 40%;
+	margin-top: 0px;
+	
+}
+
+#links{
+	float:right;
+	font-size:12pt;
+}
+
+#w3c{
+	position:relative;
+	margin-top: 2%;
+}
+
+#problems{
+	float:left;
+	width: 30%;	
+}
+
+#checkboxes{
+	position:relative;
+	width: 750px;
+
+}
+
+#radio{
+	position:relative;
+	width: 850px;
+}
+ul{
+	list-style-position: inside;
+}
+
+textarea {
+    overflow-y: scroll;
+    overflow-x:hidden;
+    height: 100px;
+    resize: none; 
+}
+
+body{
+	background-image:url(background.jpg);
+	font-family: Georgia;
+	font-size: 11pt;
+}
+
+@keyframes spin {
+    from {
+       /* styles to have at the start of the animation */
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        /* styles to have at the end of the animation */
+        transform: rotateZ(360deg);
+    }
+}
+
+.Larry{
+	animation: spin 2s;
+}
